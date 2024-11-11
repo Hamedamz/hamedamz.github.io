@@ -46,7 +46,6 @@ onMounted(() => {
 
   document.querySelectorAll('div.anchor[id]').forEach((section) => {
     observer.value?.observe(section)
-    console.log(section)
   })
 })
 

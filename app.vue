@@ -76,7 +76,7 @@ onUnmounted(() => {
 
         <span
             :style="{left: `${navIndicatorOffset}px`, width: `${navIndicatorWidth}px`}"
-            class="top-2 absolute h-9 rounded-full bg-slate-400 bg-opacity-25 transition-all duration-200 ease-in-out"
+            class="top-2 absolute h-9 rounded-full bg-slate-400 bg-opacity-25 transition-all duration-200 ease-in-out -z-10"
         />
       </nav>
     </div>

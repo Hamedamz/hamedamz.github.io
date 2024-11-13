@@ -87,7 +87,7 @@ onUnmounted(() => {
       </div>
 
       <div class="flex items-center gap-4">
-        <div class="flex flex-col justify-center">
+        <div class="flex flex-col justify-center basis-3/4">
           <div class="flex items-center gap-x-4 sm:gap-x-8">
             <div class="w-28 sm:w-48 md:hidden">
               <img :src="HERO.photo" :alt="`${HERO.my_name}'s photo`" class="rounded-2xl"/>
@@ -99,14 +99,14 @@ onUnmounted(() => {
           <div class="mt-8" v-html="HERO.bio"></div>
         </div>
 
-        <div class="hidden md:block">
+        <div class="hidden md:block basis-1/4">
           <img :src="HERO.photo" :alt="`${HERO.my_name}'s photo`" class="rounded-2xl"/>
         </div>
       </div>
 
       <div class="text-center">
         <a
-            class="text-sm capitalize transition-colors text-slate-600 border-gray-200 inline-block rounded-full px-4 py-1 me-4 mb-4 bg-slate-100 hover:bg-slate-200"
+            class="text-base capitalize transition-colors text-slate-600 border-gray-200 inline-block rounded-full px-4 py-1 me-4 mb-4 bg-slate-100 hover:bg-slate-200"
             v-for="resource in HERO.profiles"
             :href="resource.link"
             target="_blank"

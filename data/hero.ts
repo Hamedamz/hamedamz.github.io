@@ -1,6 +1,6 @@
 const HERO = {
     my_name: "Hamed Alimohammadzadeh",
-    photo: "images/photo.png",
+    photo: "images/photo2.jpeg",
     profiles: [
         {
             name: "github",
@@ -14,10 +14,10 @@ const HERO = {
             name: "google scholar",
             link: "https://scholar.google.com/citations?user=yk4gv8AAAAAJ&hl=en"
         },
-        // {
-        //     name: "CV",
-        //     link: "hamed_cv.pdf"
-        // }
+        {
+            name: "CV",
+            link: "hamed_cv.pdf"
+        }
     ],
     bio: `<p>Hi! I am a PhD student in Computer Science at the University of Southern California. 
 I research localization of UAV swarms at <a class="link" href="https://www.flslab.org/" target="_blank">Flying Light Specks (FLS) Lab</a>

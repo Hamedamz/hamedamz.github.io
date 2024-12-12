@@ -2,6 +2,21 @@ import type {News} from "~/data/types";
 
 const NEWS: News[] = [
     {
+        month: "December",
+        year: "2024",
+        headline: "I successfully passed my PhD qualifying exam at USC. Thank you to all my committee members: " +
+            "<a class='link' href='https://viterbi.usc.edu/directory/faculty/Ghandeharizadeh/Shahram' target='_blank'>Shahram Ghandeharizadeh</a>, " +
+            "<a class='link' href='https://viterbi.usc.edu/directory/faculty/Culbertson/Heather' target='_blank'>Heather Culbertson</a>, " +
+            "<a class='link' href='https://stefanosnikolaidis.net/' target='_blank'>Stefanos Nikolaidis</a>, " +
+            "<a class='link' href='https://yuewang.xyz/' target='_blank'>Yue Wang</a>, and " +
+            "<a class='link' href='https://viterbi.usc.edu/directory/faculty/Willner/Alan' target='_blank'>Alan E. Willner</a>"
+    },
+    {
+        month: "December",
+        year: "2024",
+        headline: "I will present my paper called Swazure: Swarm Measurement of Pose for Flying Light Specks on December 19 at <a class='link' href='https://www.holodecks.quest/' target='_blank'>Holodecks 2024</a>."
+    },
+    {
         month: "October",
         year: "2024",
         headline: "<a class='link' href='https://www.holodecks.quest/' target='_blank'>Holodecks 2024</a> is just around the corner! We’ll be at USC, Los Angeles on December 19."

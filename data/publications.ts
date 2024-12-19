@@ -2,6 +2,24 @@ import type {Publication} from "~/data/types";
 
 const PUBLICATIONS: Publication[] = [
     {
+        title: "Swazure: Swarm Measurement of Pose for Flying Light Specks",
+        authors: ["Hamed Alimohammadzadeh", "Shahram Ghandeharizadeh"],
+        summary: "Flying light specks quantify their position relative to one another in order to realize a shape. They utilize tracking devices like cameras to do so which have a sweet range in which they are the most accurate and at some ranges the sensor data is missing. Swazure provides for the physical independence of an FLS from the operating range of its sensor. It solves the missing sensor data using cooperation among FLSs.",
+        publisher: "Holodecks",
+        year: "2024",
+        resources: [
+            {
+                name: "paper",
+                link: "https://www.holodecks.quest/_files/ugd/fb2888_c1bca9ab88a247579a554a3b901ec688.pdf?index=true"
+            },
+            {
+                name: "code",
+                link: "https://github.com/flyinglightspeck/Swazure"
+            }
+        ],
+        image: "images/swazure.png"
+    },
+    {
         title: "Swarical: An Integrated Hierarchical Approach to Localizing Flying Light Specks",
         authors: ["Hamed Alimohammadzadeh", "Shahram Ghandeharizadeh"],
         summary: "We assume we have a heterogeneous mix of drones each equipped with Aruco markers and a camera facing a different direction. In a relative localization problem drones track one another and adjust their relative position to create a formation or a 3D shape. Here we present a decentralized technique for drones to cooperatively create a 3D shape based on an input mesh file.",

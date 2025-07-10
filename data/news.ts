@@ -2,6 +2,11 @@ import type {News} from "~/data/types";
 
 const NEWS: News[] = [
     {
+        month: "March",
+        year: "2025",
+        headline: "Our paper, <a class='link' href='https://dl.acm.org/doi/abs/10.1145/3724399' target='_blank'>Techniques to Conceal Dark Standby Flying Light Specks</a> was accepted to ACM Transactions on Multimedia Computing, Communications and Applications Journal.",
+    },
+    {
         month: "December",
         year: "2024",
         headline: "I successfully passed my PhD qualifying exam at USC. Thank to all my committee members: " +

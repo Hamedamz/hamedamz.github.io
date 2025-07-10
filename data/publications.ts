@@ -2,6 +2,24 @@ import type {Publication} from "~/data/types";
 
 const PUBLICATIONS: Publication[] = [
     {
+        title: "Techniques to Conceal Dark Standby Flying Light Specks",
+        authors: ["Hamed Alimohammadzadeh", "Shuqin Zhu", "Shahram Ghandeharizadeh"],
+        summary: "In this paper, we use reliability groups with dark standby FLSs to minimize the duration of time a point remains dark in an FLS illumination. We introduce three techniques to prevent a dark standby FLS from obstructing the user’s field of view, FoV. All three move the FLS out of the user’s FoV.",
+        publisher: "ACM Transactions on Multimedia Computing, Communications and Applications Journal",
+        year: "2025",
+        resources: [
+            {
+                name: "paper",
+                link: "https://dl.acm.org/doi/abs/10.1145/3724399"
+            },
+            {
+                name: "code",
+                link: "https://github.com/flyinglightspeck/StandbyFLSs"
+            }
+        ],
+        image: "images/reliability_tom.png"
+    },
+    {
         title: "Swazure: Swarm Measurement of Pose for Flying Light Specks",
         authors: ["Hamed Alimohammadzadeh", "Shahram Ghandeharizadeh"],
         summary: "Flying light specks quantify their position relative to one another in order to realize a shape. They utilize tracking devices like cameras to do so which have a sweet range in which they are the most accurate and at some ranges the sensor data is missing. Swazure provides for the physical independence of an FLS from the operating range of its sensor. It solves the missing sensor data using cooperation among FLSs.",

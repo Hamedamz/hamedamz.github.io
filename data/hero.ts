@@ -1,6 +1,6 @@
 const HERO = {
     my_name: "Hamed Alimohammadzadeh",
-    photo: "images/photo2.jpeg",
+    photo: "images/photo3.jpeg",
     profiles: [
         {
             name: "github",
@@ -22,7 +22,7 @@ const HERO = {
     bio: `<p>Hi! I am a PhD student in Computer Science at the University of Southern California. 
 I research localization of UAV swarms at <a class="link" href="https://www.flslab.org/" target="_blank">Flying Light Specks (FLS) Lab</a>
  supervised by <a class="link" href="https://viterbi.usc.edu/directory/faculty/Ghandeharizadeh/Shahram" target="_blank">Shahram Ghandeharizadeh</a>.
- I design decentralized algorithms for drones to create 3D illuminations, and build drone prototypes with lighting and vision capabilities. </p>`
+ I design decentralized algorithms for drones to create 3D illuminations, and build drone prototypes with lighting and vision capabilities. My research focuses on decentralized localization and tracking for collaborative robots.</p>`
 }
 
 export default HERO;

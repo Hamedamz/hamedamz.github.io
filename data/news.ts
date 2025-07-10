@@ -9,7 +9,7 @@ const NEWS: News[] = [
     {
         month: "December",
         year: "2024",
-        headline: "I successfully passed my PhD qualifying exam at USC. Thank to all my committee members: " +
+        headline: "I successfully passed my PhD qualifying exam at USC. Thanks to all my committee members: " +
             "<a class='link' href='https://viterbi.usc.edu/directory/faculty/Ghandeharizadeh/Shahram' target='_blank'>Shahram Ghandeharizadeh</a>, " +
             "<a class='link' href='https://viterbi.usc.edu/directory/faculty/Culbertson/Heather' target='_blank'>Heather Culbertson</a>, " +
             "<a class='link' href='https://stefanosnikolaidis.net/' target='_blank'>Stefanos Nikolaidis</a>, " +

@@ -15,7 +15,8 @@ const props = defineProps<PublicationProps>()
     <figure class="sm:basis-2/5">
       <img
           :src="pub.image"
-          class="aspect-[3/2] rounded-2xl ring-1 ring-slate-200 object-cover"
+          class="aspect-[3/2] rounded-2xl ring-1 ring-slate-200 object-contain"
+          alt="photo of Hamed Alimohammadzadeh"
       >
     </figure>
 

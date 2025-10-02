@@ -1,6 +1,6 @@
 const HERO = {
     my_name: "Hamed Alimohammadzadeh",
-    photo: "images/photo3.jpeg",
+    photo: "images/photo4.png",
     profiles: [
         {
             name: "github",

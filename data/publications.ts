@@ -2,6 +2,30 @@ import type {Publication} from "~/data/types";
 
 const PUBLICATIONS: Publication[] = [
     {
+        title: "Reproducibility Companion Paper: Swarical: An Integrated Hierarchical Approach to Localizing Flying Light Specks",
+        authors: ["Hamed Alimohammadzadeh", "Shahram Ghandeharizadeh", "Federico Cunico", "Joshua Springer"],
+        summary: "This companion paper provides artifacts and instructions on replicating the experiments in the ACM Multimedia 2024 paper entitled \"Swarical: An Integrated Hierarchical Approach to Localizing Flying Light Specks.\" Swarm-based hierarchical, Swarical, is a localization technique that enables miniature drones, Flying Light Specks (FLSs), to accurately and efficiently localize and illuminate complex 2D and 3D shapes.",
+        publisher: "ACM Multimedia",
+        year: "2025",
+        resources: [
+            {
+                name: "code",
+                link: "https://github.com/flyinglightspeck/Swarical"
+            }
+        ],
+        image: "images/swarical_repro.png"
+    },
+    {
+        title: "Illuminating English Letters using a Flying Light Speck",
+        authors: ["Hamed Alimohammadzadeh", "Shahram Ghandeharizadeh"],
+        summary: "This paper presents the design and implementation of a Flying Light Speck (FLS) to illuminate English letters. The FLS uses its onboard camera and computing to localize and follow a trajectory to illuminate a letter. ",
+        publisher: "the 3rd International Workshop on UAVs in Multimedia co-located with the ACM Multimedia",
+        year: "2025",
+        resources: [
+        ],
+        image: "images/mm_uav_2.png"
+    },
+    {
         title: "Techniques to Conceal Dark Standby Flying Light Specks",
         authors: ["Hamed Alimohammadzadeh", "Shuqin Zhu", "Shahram Ghandeharizadeh"],
         summary: "In this paper, we use reliability groups with dark standby FLSs to minimize the duration of time a point remains dark in an FLS illumination. We introduce three techniques to prevent a dark standby FLS from obstructing the user’s field of view, FoV. All three move the FLS out of the user’s FoV.",

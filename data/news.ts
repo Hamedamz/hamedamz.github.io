@@ -4,7 +4,7 @@ const NEWS: News[] = [
     {
         month: "Aug",
         year: "2025",
-        headline: "I have two papers accepted to ACM Multimedia 2025 and It's workshop on UAVs in Multimedia. <a class='link' href='https://doi.org/10.1145/3746027.3759199' target='_blank'>Reproducibility Companion Paper: Swarical: An Integrated Hierarchical Approach to Localizing Flying Light Specks</a> and <a class='link' href='https://doi.org/10.1145/3728482.3757388' target='_blank'>Illuminating English Letters using a Flying Light Speck</a>."
+        headline: "I have two papers accepted to ACM Multimedia 2025 and Its workshop on UAVs in Multimedia. <a class='link' href='https://doi.org/10.1145/3746027.3759199' target='_blank'>Reproducibility Companion Paper: Swarical: An Integrated Hierarchical Approach to Localizing Flying Light Specks</a> and <a class='link' href='https://doi.org/10.1145/3728482.3757388' target='_blank'>Illuminating English Letters using a Flying Light Speck</a>."
     },
     {
         month: "March",
